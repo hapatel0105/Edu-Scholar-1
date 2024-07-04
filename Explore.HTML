@@ -1,0 +1,294 @@
+<html>
+<head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #343a40;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 50px auto;
+}
+.contact-box{
+
+    display: flex;
+}
+
+.contact-right{
+
+    color: rgba(1, 1, 1, 0.419);
+}
+h1{
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: white;
+}
+.container p{
+    margin-bottom: 15px; 
+} 
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #020201;
+    outline: none;
+    padding-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: #8b0000;
+}
+/* button{
+    background: #cd5c5c;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 45px;
+    border-radius: 60px;
+    margin-top: 20px;
+} */
+/* .contact-left h3{ */
+    /* color: #cd5c5c; */
+    /* font-weight: 600; */
+    /* margin-bottom: 30px; */
+/* } */
+.contact-right h3{
+
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px; 
+}
+strong{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: wheat;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.down{
+    border:solid wheat;
+    border-radius:20px;
+    padding:5px;
+}
+.dropbtn {
+  color: white;
+  padding: 8px;
+  font-size: 6px;
+  border-radius: 50%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+<title>Explore</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div>
+            <img src="mainlogo1.png" alt="">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px; ">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apply.php" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px;">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px;" >About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px;" >Contact us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" style="font-size: 25px; font-family: 'Times New Roman', Times, serif; padding-right: 50px; ">
+                            Result
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signin.php" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px;" >Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php" style="font-size: 25px;  font-family: 'Times New Roman', Times, serif; padding-right: 50px;" >Register</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <div class="dropdown">
+                    <button class="dropbtn" style="background-color: wheat;" ><img src="user.png" height="40px" width="40px"></img></button>
+                        <div class="dropdown-content">
+                            <a href="logout.php">Sign out</a>
+                        </div>    
+                </div> 
+            </form>
+    </div>
+</nav>
+    <hr style="height:3px; background-color: wheat">
+    <div class="container">
+      <div class="back">   
+    
+     <h1 style="font-family: cursive; font-size: 50px;">Explore Scholarships</h1><div id="post-25141" class="post-25141 page type-page status-publish hentry">
+		
+<p><strong> Sitaram Jindal Scholarship</strong></p>
+<p>Students who are studying on Higher Secondary, Graduation Degree, Engineering, MBA, MBBS etc can apply for Sitaram Jindal Scholarship. For applying these scholarship students must have to score 75% on the last examination. The application is done through the offline method. Download the application form and send it to the mentioned address. The application process will start from July to August.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>INSPIRE Scholarship </strong></p>
+<p>Government of India provide this scholarship to the top 1% of students who scored the highest marks of each State and Central Board. There is no specific percentage limit, it depends on every year for every state. To apply this scholarship candidate must have to score 80% marks on the last board exam.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>UGC Grant for Single Girl Child Scholarship</strong></p>
+<p>This scholarship is provided by the University Grant Commission. Girls students without having any brother or twin daughters are eligible for this scholarship. Candidates who are taking admission on Post Graduate regular course are only eligible. The application process for this scholarship is Online. The scholarship amount awarded to the girl student under this scheme is Rs. 32,600/- per year.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>KC Mahindra Scholarship</strong></p>
+<p>This Scholarship scheme is providing by KC Mahindra Educational Trust. Students, who passed their Madhyamik (10th) or Higher Secondary (12th) Board examination this year and took admission on Job Oriented Diploma Course can apply for this scholarship scheme. Minimum 60% marks required for this scholarship.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>Kind Circle Merit Scholarship</strong></p>
+<p>Kind Circle is an initiative of Buddy4Study foundation. This foundation provides scholarships to the needy meritorious students. Students who are currently studying in School (class 9 to 12), Undergraduate and Vocational Course, are eligible for Kind Circle Meritorious Scholarship. The last date of online application is 31st December. Students, who scored more than 60% marks on their last qualifying exam, can apply for this scholarship.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>Atul Maheshwari Scholarship</strong></p>
+<p>This scholarship is provided by The Amar Ujala Foundation in the memory of its founder. This foundation provides a total 36 scholarship under this scheme and each selected student awarded with Rs. 30,000 to Rs. 50,000 as scholarship. Students who are appearing Class 10th/12th Exam are eligible for this scholarship. Candidates have to must pass the last examination with at least 60% marks and the annual family income not exceed Rs. 1.5 Lakh. </p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>FAEA Scholarship</strong></p>
+<p>This scholarship for the students, who are belonging to socially and economically disadvantaged sections of the society all over India. The foundation gives the scholarship to the 12th passed students, who were taking admission on 1st of graduation course for Higher Education. The Online and Offline application process will start in June. The last date for applications is 30th June.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong> Hamdard Educational Scholarship</strong></p>
+<p>This scholarship for the students who were taking admission on any technical or professional job oriented courses. The Hamdard Foundation provides this scholarship to 12th passed students, who are meritorious but economically weak. </p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>Nishkam Sikh Welfare Council SHDF Scholarship</strong></p>
+<p>Students who were passed their 12th examination this year and taking admission on 1st year of any professional diploma, degree or postgraduate courses are eligible for Nishkam Scholarship Scheme. The scholarship amount under this scheme is Rs. 27,000 per year. Candidates have to apply offline by sending the application form. </p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong> NEST Scholarship</strong></p>
+<p>This is a scholarship test for the students who have passed out their 12th or 10th class Board examination. The eligible candidates can apply for NEST Scholarship exam. Candidates have to apply Online before 30th September. For more details visit the official website.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+<br>
+</ul>
+<p><strong>Bharat Petroleum Scholarship</strong></p>
+<p>Bharat Petroleum provides scholarships to the students for study two years full-time post-graduate degree course from India or abroad. Students who passed with 65% marks in Arts or 70% marks in Engineering, Science or Commerce and age in between 25 years, are eligible for this scholarship. The online application generally starts at the time of the new academic season.</p>
+<a class="down" href="Download/1.pdf" download>Click Here to download pdf of Required Information</a>
+<hr>
+</ul>
+<!-- </div> -->
+<!-- <p><strong style="font-size:20px;">Emergencies :</strong></p>
+<p>District Helpline : Call : <b>+91 1234 5678</b></p>
+<hr>
+<br>
+<p>Emergency contact no: <b>+91 2642 242300</b></p>
+<hr>
+<p><strong style="font-size: 20px;">Please send suggestions and feedback to:</strong></p>
+<p>SVMIT Bharuch<br />
+Bharuch<br />
+SVMIT,<br />
+District : Bharuch<br />
+Pin Code : 392003</p>
+<p>E-mail : <strong>svmit@gmail.com, svmmit1#gmail.com</strong></p>
+<hr>
+<p></p>If you have any questions about this website, you can write to the Web Information Manager on the email id. Any Feedback related to Content, Design or Technology can be presented in the Feedback section. You can also contact us at the following address:</p>  
+<hr>
+<p>Follow us on all our socials</p> -->
+
+</div>
+</body>
+
+</html>

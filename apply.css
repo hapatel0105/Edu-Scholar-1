@@ -1,0 +1,92 @@
+body{
+    background-color: #343a40 !important;
+}
+
+
+/* .container {
+    border:solid wheat;
+    border-radius:  30px;
+    padding: 100px;
+    background-color: #343a40;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+                    linear-gradient(
+                to bottom, 
+                wheat, 
+                rgba(0, 0, 0, 0)
+                ) 1 100%;
+} */
+input[type=text],
+input[type=date],
+input[type=password] {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 60%;
+    padding: 1rem;
+    /* color: transparent; */
+    background-color:#303438;
+    /* border-width: 10px; */
+    border-style:dotted;
+    border-radius:20px;
+    /* border-style: solid; */
+    border-image: 
+        linear-gradient(
+                        to bottom,
+                        wheat,
+
+                        rgba(0, 0, 0, 0)
+                        ) 1 10%;
+    width: 60%;
+    height: 8%; 
+    /* border-left:groove; */
+     margin-left: 180px;
+    color: white;
+}
+b{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+label{
+    color: rgba(255,255,255,.5);
+    margin-left: 180px; 
+
+}
+.class2{
+    margin-left: 180px;
+    font-size:20px;
+    color:red;
+    max-width: 60%;
+    padding: 1rem;
+    color: white;
+    background-color:#343a40;
+    /* border-width: 10px; */
+    border-style:dotted;
+    border-radius:20px;
+    /* border-style: solid; */
+    border-image: 
+        linear-gradient(
+                        to bottom,
+                        wheat,
+
+                        rgba(0, 0, 0, 0)
+                        ) 1 10%;
+    width: 60%;
+    height: 8%; 
+}
+
+.class3{
+
+    font-size: 30px; 
+    margin-left:420px; 
+    font-family: 'Times New Roman', Times, serif; 
+
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+    to bottom, 
+    wheat, 
+    rgba(0, 0, 0, 0)
+    ) 1 100%;
+}

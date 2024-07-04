@@ -1,0 +1,103 @@
+body {
+    background-color: #343a40 !important;
+}
+.navbar-collapse {
+    padding-left: 50px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding-right: 50px;
+} 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 50%);
+}
+.pi {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 30px 0 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: wheat;
+}
+
+.tabel1 .sub1{
+    font-size: 25px;
+    color: white;
+}
+a {
+    color: wheat;
+  }
+  
+.tabel1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.sub {
+    display: flex;
+}
+
+.mytabs {
+    border-color: wheat;
+    border-style: dashed;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 20px;
+    margin-left: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    color: rgb(168, 168, 168);
+    padding-top: 60px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding-left: 0px;
+}
+
+.mytabs label:hover {
+  color: white;
+}
+
+.mytabs .tab {
+    border: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 35px;
+    background: #343a40;
+    order: 1;
+    display: none;
+}
+
+.mytabs .tab h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked+label+.tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked+label {
+    color: white;
+    background: #343a40;
+}
+
+hr {
+    height: 3px;
+    background-color: wheat;
+}
+
